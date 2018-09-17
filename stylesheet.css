@@ -1,0 +1,246 @@
+/*sections------------------------------------------------------------------- */
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-align:
+
+}
+#wrapper {
+}
+article	{
+    align-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+     
+}
+#backimg {
+    background-color: #fff; 
+}
+aside	{
+}
+footer {
+    background-color: #fff;
+    color: #000;
+    padding: 1%;
+}
+header {
+    background-image: url(../img/beach.jpg);
+    background-repeat: no-repeat;
+    background-size: auto; 
+    background-position: center center;
+    background-color: #00ff00;
+    width: 100%;
+    height: 800px;
+    color: #fff;
+}
+/* The navigation bar */
+.navbar {
+    
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    padding: 15px;
+    text-align: center;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+section  {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#about {
+    background-color: #1184af;
+    color: #fff;
+}
+#edu {
+    background-image: url(../img/beach2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    color: #000;
+    
+}
+#skills {
+    background-color: #fff;
+    color: #000;
+}
+#projects {
+    background-image: url(../img/mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    color: #000;
+    
+}
+
+#contact{
+    background-color: #000;
+    width: 100%;
+    height: 500px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    margin: 3%;
+    padding: 2%;
+    border: 1px solid #000;
+}
+
+/*headings------------------------------------------------------------------- */
+h1	{
+    font-family: 'Karla', sans-serif;
+    font-size: 60px;
+    font-weight: 200px;;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 350px;
+    padding-bottom: 200px;
+    color: #000;
+
+}
+h2	{
+    font-family:'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align:center;
+    padding-bottom: 20px;
+    color: #ffff;
+
+
+}
+h3 	{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 2px;
+    color: #ffff;
+}
+h4	{font-family:'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align:center;
+    padding-bottom: 20px;
+    color: #000;
+}
+h5	{
+}
+h6	{
+}
+/*grouping------------------------------------------------------------------- */
+p	{
+    line-height: normal;
+    margin: 0px;
+}
+blockquote	{
+}
+/*lists---------------------------------------------------------------------- */
+ul	{
+    list-style: none;
+   
+}
+li	{
+}
+li a {
+}
+}
+ol	{
+}
+dl	{
+}
+dt	{
+    padding-bottom: 5px;
+}
+dd	{
+    padding-bottom: 10px;
+}
+/*text------------------------------------------------------------------------ */
+em	{
+}
+strong	{
+}
+small	{
+}
+cite	{
+}
+time	{
+}
+/*image----------------------------------------------------------------------- */
+figure	{
+}
+figcaption	{
+}
+img	 {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+#me {
+    width: 250px;
+    height: 250px;
+    float: left;
+    padding: 20px;
+    overflow: auto;
+    border-radius: 50%;
+}
+/*anchors--------------------------------------------------------------------- */
+a:link	{
+    color: #000;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 2px;
+
+}
+a:visited {
+    color: #000;
+}
+a:hover {
+    font-weight: 100px;
+}
+a:active {
+}
+/*form------*/
