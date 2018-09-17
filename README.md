@@ -1,1 +1,0 @@
-# ashleynakamoto.github.io
